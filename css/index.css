@@ -1,0 +1,419 @@
+.header-icons{
+    padding: 20px 150px;
+}
+
+.social{
+    width: 15px;
+    height: 15px;
+    margin-right: 20px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.header-icons-right{
+    float: right;
+    text-align: right;
+    margin-top: -5px;
+}
+
+.right-cont{
+    display: inline-block;
+    margin-right: 30px;
+    text-align: left;
+    font-family: 'Lato', sans-serif;
+    color: rgb(102, 102, 102);
+    font-size: 14pt;
+}
+
+.right-cont img{
+    width: 30px;
+    height: 30px;
+    margin-right: 10px;
+    margin-top: -20px;
+}
+
+.contact-cont{
+    display: inline-block;
+}
+
+.tel_text, .email_text {
+    font-size: 10pt;
+    color: rgb(150, 150, 150);
+}
+
+.banner-item{
+    width: 100%;
+    height: 100vh;
+    padding: 0px;
+}
+
+.slider-img{
+    width: 100%;
+    height: 100%;
+}
+
+.logo-cont{
+    position: absolute;
+    left: 120px;
+    top: 120px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+    margin-top: -40px;
+}
+
+.name{
+    display: inline-block;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    line-height: 1;
+    font-size: 14pt;
+}
+
+.first_span, .second_span, .third_span{
+    display: block;
+}
+
+.second_span{
+    font-family: 'Lato', sans-serif;
+    font-size: 20pt;
+    font-weight: bolder;
+    color: gold;
+    text-shadow: 1px 1px 1px yellow;
+}
+
+.tag-cont{
+    position: absolute;
+    color: white;
+    top: 40%;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    text-shadow: 1px 1px 1px grey;
+    line-height: 1.7;
+}
+
+.main-tag{
+    font-size: 70pt;
+    font-weight: 700;
+    color: white;
+}
+
+.sub-tag{
+    font-size: 24pt;
+    font-weight: 400;
+}
+
+
+.donate{
+    background-color: gold;
+    padding: 10px 50px;
+    font-size: 14pt;
+    font-family: 'Lato', sans-serif;
+    cursor: pointer;
+    box-shadow: 1px 1px 1px grey;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.donate:hover{
+    background-color: rgb(200, 200, 0);
+    color: white;
+    font-weight: lighter;
+}
+
+.nav_list{
+    position: absolute;
+    right: 150px;
+    top: 120px;
+}
+
+.nav_list ul li {
+    display: inline-block;
+    width: 23%;
+    text-align: center;
+    color: gold;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    cursor:pointer;
+}
+
+
+.nav_list ul li:hover{
+    color:white;
+    text-decoration: underline;
+}
+
+.help{
+    position: absolute;
+    padding: 10px 150px;
+    bottom: -70px;
+    border-top: 1px solid red;
+    color: white;
+    font-family: 'Lato', sans-serif;
+    line-height: 1.5;
+}
+
+.help-icon{
+    width: 20px;
+    height: 20px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 2px;
+    margin-right: 5px;
+}
+
+.help-first{
+    display: inline-block
+}
+
+.help-second{
+    display: inline-block;
+    float: right;
+    text-align: center;
+    margin-top: 10px;
+}
+
+.help-tag{
+    font-size: 22pt;
+    margin: 10px 0px;
+}
+
+.location, .established {
+    display: inline-block;
+    margin-right: 30px;
+}
+
+.each-time{
+    display: inline-block;
+    padding: 10px;
+    border: 4px solid red;
+    width: 90px;
+    border-radius: 50px;
+    margin-right: 5px;
+}
+
+.value{
+    font-size: 18pt;
+}
+
+.strat{
+    background-color: gold;
+    width: 20%;
+    display: inline-block;
+    font-family: 'Lato', sans-serif;
+    font-size: 35pt;
+    padding: 0px;
+    border-left: 2px solid grey;
+    cursor: pointer;
+    color: white;
+    font-weight: lighter;
+}
+
+
+.strat1{
+    background-image: url('../images/give.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.strat2{
+    background-image: url('../images/sell.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.strat3{
+    background-image: url('../images/boy.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.strat4{
+    background-image: url('../images/power.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.strat5{
+    background-image: url('../images/OIP.jfif');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.number{
+    display: block;
+}
+
+.outer-strat{
+    width: 100%;
+    background-color: rgba(96, 96, 9, 0.85);
+    padding: 50px 80px;
+}
+
+.about{
+    background-color: rgb(225, 225, 225);
+    padding: 50px 120px;
+}
+
+.about-right{
+    float: right;
+}
+
+.about-head{
+    font-size: 22pt;
+    color: rgb(0, 0, 0);
+}
+
+.about-text{
+    color: rgb(120, 120, 120);
+    line-height: 2;
+    margin-top: 15px;
+    font-size: 14pt;
+    text-align: justify;
+}
+
+.readmore {
+    background-color: gold;
+    padding: 0px 20px;
+    display: block;
+    margin-top: 10px;
+    color: black;
+    border: 0px;
+}
+
+.readmore:hover {
+    background-color: rgb(157, 135, 13);
+}
+
+.mission{
+    padding: 50px 120px;
+}
+
+.mission-cont{
+    border-radius: 10px;
+}
+
+.mission img{
+    width: 90%;
+    height: 350px;
+}
+
+.mission-text{
+    background-color: gold;
+    width: 90%;
+    height: 300px;
+    border-bottom-right-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+    padding: 15px
+}
+
+.mission-header{
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 20px;
+    color: black;
+}
+
+.mission-body{
+    font-size: 12pt;
+}
+
+.mission-body ul{
+    list-style: none;
+    text-align: left;
+    font-size: 11pt;
+    line-height: 2;
+}
+
+.how_to_help{
+    height: 100vh;
+    background-image: url(../images/help.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+;}
+
+.each-step{
+    border: 1px solid gold;
+    padding: 60px 20px;
+    text-align: center;
+    margin: 1%;
+    width: 23%;
+    height: 400px;
+    color: white;
+}
+
+.outer-help{
+    background-color: rgba(10, 50, 10, 0.75);
+    height: 100vh;
+    padding: 70px 120px;
+}
+
+.help_header{
+    text-align: center;
+    font-size: 30pt;
+    color: white;
+    font-weight: bolder;
+    font-family: 'Lato', sans-serif;
+}
+
+.help-header{
+    font-size: 18pt;
+    font-weight: bold;
+    padding: 20px;
+    color: white;
+}
+
+.step-icon{
+    width: 60px;
+    height: 60px;
+}
+
+.skill-options{
+    padding: 150px 120px;
+    height: 70vh;
+}
+
+.skill-left{
+    margin-top: -120px;
+}
+
+.skill-head{
+    border-left: 4px solid gold;
+    padding-left: 15px;
+    font-family: 'Lato', sans-serif;
+    font-size: 25pt;
+}
+
+.head-sub{
+    color: red;
+    font-weight:lighter;
+}
+
+.avail-img{
+    border-radius: 40px;
+    padding: 10px;
+    width: 70px;
+    border: 2px solid rgb(100, 100, 100);
+    background-color: white;
+    box-shadow: 2px 1px 1px grey;
+}
+
+.avail-text{
+    font-size: 14pt;
+    font-weight: bolder;
+    margin: 10px 0px;
+}
+
+.available{
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.skill-list{
+    color: rgb(150, 150, 150)
+}
